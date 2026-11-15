@@ -48,7 +48,7 @@ const NinthSection = () => {
             <span className='flex flex-col items-center gap-2'>
                 <TinyHeader>FREE · NO OBLIGATION</TinyHeader>
                 <h2 className='text-white font-semibold text-3xl'>See If Your Roof Qualifies</h2>
-                <p className='text-center text-white/70 lg:w-150 w-100'>Not every roof is a candidate — that's exactly why the assessment is free. Lenny will tell you straight whether rejuvenation makes sense for your home.</p>
+                <p className='text-center text-white/70 lg:w-150 w-100'>Not every roof is a candidate — that's exactly why the assessment is free. Joseph will tell you straight whether rejuvenation makes sense for your home.</p>
             </span>
 
             <form onSubmit={submit} className='flex flex-col gap-6 items-center'>
