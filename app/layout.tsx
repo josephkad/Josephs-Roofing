@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter, Plus_Jakarta_Sans, Roboto } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toast";
+import { Analytics } from "@vercel/analytics/next";
 
 const font = Plus_Jakarta_Sans({
   subsets: ['latin'],
@@ -23,6 +24,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Toaster>
           {children}
         </Toaster>
+        <Analytics />
         </body>
     </html>
   );
