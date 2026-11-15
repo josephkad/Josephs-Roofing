@@ -7,7 +7,7 @@ const FourthSection = () => {
       <p className='font-semibold text-second'>SIMPLE PROCESS</p>
       <p className='font-semibold text-4xl tracking-wide'>How It Works</p>
 
-      <span className='flex justify-between gap-4 my-10'>
+      <span className='flex lg:flex-row flex-col justify-between gap-4 my-10'>
         {[
           {title: 'Free Roof Assessment', text: 'We secure loose shingles, re-seal flashings, and fix nail pops before treatment — included.'},
           {title: 'Roof Tune-Up', text: 'We secure loose shingles, re-seal flashings, and fix nail pops before treatment — included.'},

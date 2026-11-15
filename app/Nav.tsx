@@ -6,7 +6,7 @@ import React from 'react'
 const Nav = () => {
   return (
     <div className='fixed bg-first/70 opacity-95 top-0 z-50 backdrop-blur-md w-full'>
-        <Container className='text-white flex justify-between items-center p-2' noPadding={true}>
+        <Container className='text-white flex justify-between items-center p-2 lg:gap-0 gap-20' noPadding={true}>
             <button className='font-semibold text-xl tracking-wide hover:scale-103 hoverEffect'>Joseph's <span className='text-second'>Roofers</span></button>
             <Button variant={'default'}><Phone color='red' fill='red'/> (123) 456-7890 </Button>
         </Container>

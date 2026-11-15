@@ -11,10 +11,15 @@ import SixthSection from "./pageContent/SixthSection";
 import Container from "@/components/helpers/Container";
 import SeventhSection from "./pageContent/SeventhSection";
 import EightSection from "./pageContent/EightSection";
+import NinthSection from "./pageContent/NinthSection";
+import HireMe from "./pageContent/HireMe";
+import { Button } from "@/components/ui/button";
+import { Phone } from "lucide-react";
 
 export default function Home() {
   return (
-    <span>
+    <div className="relative max-w-full">
+      <HireMe />
       <Nav />
       <VideoBackground />
       <FirstSection />
@@ -25,7 +30,8 @@ export default function Home() {
       <SixthSection />
       <SeventhSection />
       <EightSection />
+      <NinthSection />
       <Footer />
-    </span>
+    </div>
   );
 }

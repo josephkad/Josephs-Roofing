@@ -14,7 +14,7 @@ const FifthSection = () => {
           <ContentText>The difference one treatment makes</ContentText>
         </span>
 
-        <span className='flex justify-between gap-10 my-10'>
+        <span className='flex lg:flex-row flex-col justify-between gap-10 my-10'>
           {[
             'https://tse4.mm.bing.net/th/id/OIP.SzhVzVBXe4mDnP9ta0M_CAHaFS?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
             'https://tse3.mm.bing.net/th/id/OIP.RcljoRS8SFr4IDR7slgqFwHaFS?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
