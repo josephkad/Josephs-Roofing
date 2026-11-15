@@ -19,7 +19,7 @@ const FifthSection = () => {
             'https://tse4.mm.bing.net/th/id/OIP.SzhVzVBXe4mDnP9ta0M_CAHaFS?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
             'https://tse3.mm.bing.net/th/id/OIP.RcljoRS8SFr4IDR7slgqFwHaFS?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
             'https://tse2.mm.bing.net/th/id/OIP.1EvIvfPAGaXutznA1dJhVAHaEI?r=0&rs=1&pid=ImgDetMain&o=7&rm=3'
-          ].map((item, index) => <div className={`p-3 w-100 shadow-sm bg-white rounded-2xl hoverEffect hover:scale-102 ${index === 0 ? 'hover:-rotate-2' : index === 1 ? 'hover:rotate-2' : 'hover:-rotate-3'}`} key={index}>
+          ].map((item, index) => <div className={`p-3 lg:w-100 w-70 lg:ml-auto -ml-15 shadow-sm bg-white rounded-2xl hoverEffect hover:scale-102 ${index === 0 ? 'hover:-rotate-2' : index === 1 ? 'hover:rotate-2' : 'hover:-rotate-3'}`} key={index}>
             <img src={item} className='rounded-2xl w-full h-full' />
           </div>)}
         </span>

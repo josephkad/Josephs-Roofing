@@ -6,7 +6,7 @@ const SecondSection = () => {
   return (
     <Container>
       <div className='flex lg:flex-row flex-col justify-between lg:p-6 my-10 gap-10'>
-        <span className='flex flex-col gap-4 lg:w-1/2'>
+        <span className='flex flex-col gap-4 lg:w-1/2 w-70'>
           <p className='font-semibold text-second'>THE PROBLEM</p>
           <h2 className='font-semibold lg:text-4xl text-2xl'>Your Roof Is Aging Faster Than You Think.</h2>
           <p className='text-muted-foreground'>Every asphalt shingle starts out with oils that keep it soft and flexible. Sun and heat slowly bake those oils out, and what’s left is a hard, fragile surface that can’t handle a storm. The roof can look fine from the driveway while the damage is already underway.</p>

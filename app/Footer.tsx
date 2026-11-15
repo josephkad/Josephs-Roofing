@@ -6,7 +6,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='bg-first'>
-      <Container className='flex lg:flex-row flex-col lg:flex-start items-center lg:text-start text-center justify-between gap-4 p-20 text-white'>
+      <Container className='flex lg:flex-row flex-col lg:scale-100 scale-80 lg:ml-auto -ml-8 lg:flex-start items-center lg:text-start text-center justify-between gap-4 p-20 text-white'>
         <span>
           <p className='font-semibold'>Josephs Roofers</p>
           <p className='text-gray-400 text-sm'>0000 Landover, This Road, MD 12345 · Licensed & Insured</p>

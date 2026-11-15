@@ -4,7 +4,7 @@ import React from 'react'
 const FirstSection = () => {
   return (
     <div className='bg-second h-fit'>
-      <Container className='lg:flex grid grid-cols-2 justify-between'>
+      <Container className='flex lg:flex-row flex-col justify-between'>
         {[
           {title: '80%', text: 'Savings vs. Replacement'},
           {title: '15 Yrs', text: 'Added Roof Life'},

@@ -8,7 +8,7 @@ import React from 'react'
 
 const SixthSection = () => {
   return (
-    <Container className='flex flex-col items-center mt-20 gap-4'>
+    <Container className='flex flex-col items-center lg:scale-100 lg:ml-auto scale-80 -ml-9 lg:mt-20 gap-4'>
       <TinyHeader>CUSTOMER REVIEWS</TinyHeader>
       <SubHeader>What Maryland Homeowners Say</SubHeader>
 

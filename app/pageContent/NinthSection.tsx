@@ -44,7 +44,7 @@ const NinthSection = () => {
 
   return (
     <div className='bg-first/90'>
-        <Container className='flex flex-col gap-6 items-center p-20'>
+        <Container className='flex flex-col gap-6 items-center lg:p-20 lg:scale-100 lg:ml-auto scale-80 -ml-8'>
             <span className='flex flex-col items-center gap-2'>
                 <TinyHeader>FREE · NO OBLIGATION</TinyHeader>
                 <h2 className='text-white font-semibold text-3xl'>See If Your Roof Qualifies</h2>

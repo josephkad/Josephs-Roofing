@@ -3,7 +3,7 @@ import React from 'react'
 
 const FourthSection = () => {
   return (
-    <Container className='flex flex-col items-center gap-2 my-20'>
+    <Container className='flex flex-col items-center gap-2 lg:my-20 lg:scale-100 lg:ml-auto scale-70 -ml-10'>
       <p className='font-semibold text-second'>SIMPLE PROCESS</p>
       <p className='font-semibold text-4xl tracking-wide'>How It Works</p>
 

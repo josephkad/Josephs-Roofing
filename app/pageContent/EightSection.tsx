@@ -6,7 +6,7 @@ import React from 'react'
 
 const EightSection = () => {
   return (
-    <Container className='flex flex-col gap-4 items-center my-20'>
+    <Container className='flex flex-col gap-4 items-center my-20 lg:ml-auto lg:scale-100 -ml-9 scale-80'>
       <TinyHeader>QUESTIONS</TinyHeader>
       <SubHeader>Frequently Asked Questions</SubHeader>
       <Accordion className={'gap-4 items-center mt-10'}>
