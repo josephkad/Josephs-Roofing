@@ -26,7 +26,7 @@ const Footer = () => {
         <span className='flex flex-col text-sm gap-2'>
           <p className='text-gray-400'>Mon–Fri 8am–6pm · Sat 9am–3pm</p>
           <p className='text-gray-400'>©Josephs Roofers. All rights reserved.</p>
-          <span className='my-2 flex'>
+          <span className='my-2 flex lg:hidden'>
             {['Privacy Policy', 'Terms & Conditions', 'SMS Program'].map((text, index) => <Button className={'text-white'} key={index} variant={'link'}>{text}</Button>)}
           </span>
         </span>
